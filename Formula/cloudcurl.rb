@@ -13,7 +13,7 @@ class Cloudcurl < Formula
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "f89f7c7f4f42481f0b7f27b3131c98208bc7e17982ad286b011b8a20f3b750d5"
+      sha256 "b574797e22f957cdaae43a83e07d79a284ff96e4f7dd69e73b109d6ecf69b0df"
 
       def install
         bin.install "cloudcurl"
@@ -24,7 +24,7 @@ class Cloudcurl < Formula
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "0144ef408335b2106ae03276e0570d1fa6d2428b1f1ba500a07b18a7d2dae03e"
+      sha256 "9b02493abdef0640937cf36a44f31ab35fcbd3bec549b0d0d77adf80d06815b3"
 
       def install
         bin.install "cloudcurl"
@@ -38,7 +38,7 @@ class Cloudcurl < Formula
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "217a95b31dfc38b81ce1d6b3ab3445bd178008b4529678adb0162945a3ab9136"
+      sha256 "997f6af9e7c50897e40cef16c24e8cb0954ba31d758cfe4d338bf6ff9e00c63c"
       def install
         bin.install "cloudcurl"
       end
@@ -48,7 +48,7 @@ class Cloudcurl < Formula
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "c18a7a4443cc098aad34a32c25353df274a28774b741ec101b5740343716cfae"
+      sha256 "96e88e22821c87c38b125b879641bf917055ea35bc04c60e810e593d52108d08"
       def install
         bin.install "cloudcurl"
       end
