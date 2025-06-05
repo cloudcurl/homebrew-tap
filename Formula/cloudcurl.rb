@@ -5,26 +5,26 @@
 class Cloudcurl < Formula
   desc ""
   homepage ""
-  version "0.0.8"
+  version "0.0.9"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cloudcurl/cli/releases/download/v0.0.8/cloudcurl_darwin_amd64.tar.gz",
+      url "https://github.com/cloudcurl/cli/releases/download/v0.0.9/cloudcurl_darwin_amd64.tar.gz",
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "ab90d8ff9b64162100e685d3134ecc2c6285bcd291cfd0c7e18b74b27948404c"
+      sha256 "9eb3ad986c83352da747a4bef7ada697e4d9b86c1056a0fcaa8b80ac92b33543"
 
       def install
         bin.install "cloudcurl"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cloudcurl/cli/releases/download/v0.0.8/cloudcurl_darwin_arm64.tar.gz",
+      url "https://github.com/cloudcurl/cli/releases/download/v0.0.9/cloudcurl_darwin_arm64.tar.gz",
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "44d9f16a2853ff1fbea8dc6682a871ed46c3e5b4e438d33bc00315eb2f8c10dc"
+      sha256 "79b89e02080e1a97add124d20bfffae76743d0971feab6858a79f5bd8e2cb07e"
 
       def install
         bin.install "cloudcurl"
@@ -34,21 +34,21 @@ class Cloudcurl < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/cloudcurl/cli/releases/download/v0.0.8/cloudcurl_linux_amd64.tar.gz",
+      url "https://github.com/cloudcurl/cli/releases/download/v0.0.9/cloudcurl_linux_amd64.tar.gz",
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "77e50fa8d4df17af82ca50cf5b8fb5ab96ac87ef65c4d6332dd3958a790f2015"
+      sha256 "58bf9ab3f747752879f96ab285b2b2a11565f85ceb7329046fc736d4fef781d8"
       def install
         bin.install "cloudcurl"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/cloudcurl/cli/releases/download/v0.0.8/cloudcurl_linux_arm64.tar.gz",
+      url "https://github.com/cloudcurl/cli/releases/download/v0.0.9/cloudcurl_linux_arm64.tar.gz",
         headers: [
           "Accept: application/octet-stream"
         ]
-      sha256 "cb209fec240ecee98be8904d610cb2415d271677cda1c920bbbd6367281dcee4"
+      sha256 "8ea134e62ceb6c681cc552ab50962a6d16a5b1852a63f5c669fcf676407d09fa"
       def install
         bin.install "cloudcurl"
       end
